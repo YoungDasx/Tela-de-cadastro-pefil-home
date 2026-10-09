@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Air Force</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    background:#fff;
+}
+
+.fundo{
+    position:fixed;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:-1;
+}
+
+.login{
+    width:350px;
+    background:rgba(255,255,255,.95);
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+h1{
+    text-align:center;
+    color:#d60000;
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#d60000;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#a80000;
+}
+
+p{
+    text-align:center;
+    margin-top:15px;
+}
+
+a{
+    color:#d60000;
+    text-decoration:none;
+}
+
+</style>
+</head>
+<body>
+
+<img src="img/airforce.png.png" class="fundo">
+
+<div class="login">
+
+    <h1>login </h1>
+
+    <form action="home.html">
+
+        <input type="email" placeholder="E-mail" required>
+
+        <input type="password" placeholder="Senha" required>
+
+        <button type="submit">Entrar</button>
+
+    </form>
+
+    <p>
+        <a href="cadastro.html">Criar Conta</a>
+    </p>
+
+</div>
+
+</body>
+</html>
